@@ -73,6 +73,7 @@ export default function Modal({ isOpen, onClose, onSubmit, title, body, footer, 
                                     )}
                                     <Button disabled={disabled} label={actionLabel} onClick={handlerSubmit} />
                                 </div>
+                                {footer}
                             </div>
                         </div>
                     </div>
